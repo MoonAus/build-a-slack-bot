@@ -302,9 +302,9 @@ def update_home_tab(client, event, logger):
 
 
 
-# When a user joins the workspace, send a message in a predefined channel asking them to introduce themselves
-@app.event("team_join")
-def ask_for_introduction(event, say):
+# When a user joins the workspace, send a message in a predefined channel
+@app.event("member_joined_channel")
+def member_joined_channel(event, say):
     bot_team_channel_id = "your-team-id"
     user_id = event["user"]
     text = f"Welcome to the bot team, <@{user_id}>! 🎉 My name is Purinina and I am your Daily News Company's COVID-19 bot. Feel free to call me Nina😊. \
