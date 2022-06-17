@@ -35,7 +35,7 @@ def repeat_text(ack, say):
 			"type": "section",
 			"text": {
 				"type": "mrkdwn",
-				"text": "*Hey there 👋 I'm Purinina and I am your Daily News Company's COVID-19 bot.\nThere are three main concerns that I can support with:*"
+				"text": "Hey there 👋 I'm Purinina and I am your Daily News Company's COVID-19 bot.\nThere are three main concerns that I can support with:"
 			}
 		},
 		{
